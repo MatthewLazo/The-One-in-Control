@@ -1,0 +1,2 @@
+DialogueManager = {}
+return DialogueManager
