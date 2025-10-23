@@ -1,7 +1,7 @@
 local Game = {}
 
-Game.GameManager = require 'gamemanager'
-Game.SceneManager = require 'scenemanager'
+Game.GameManager = require 'Game Managers/gamemanager'
+Game.SceneManager = require 'Game Managers/scenemanager'
 
 Game.Entities = {
     Player = require 'player'
