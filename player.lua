@@ -13,7 +13,9 @@ function Player:setPosition(x, y)
 end
 
 function Player:update(dt)
-    self:movement(dt)
+    if Game.GameManager:returnGameState() ~= 1 then
+        self:movement(dt)
+    end
 end
 
 function Player:draw()
