@@ -1,2 +1,2 @@
 # The-One-in-Control
-LOVE2D game made for Pizza Doggy's Horror Jam, Bullet Hell.
+LOVE2D prototype that I got bored of.
